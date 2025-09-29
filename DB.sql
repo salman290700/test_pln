@@ -1,3 +1,5 @@
+CREATE USER 'db_user'@'localhost' IDENTIFIED BY 'root';
+CREATE DATABASE muhammad_salman_al_farisi_2025;
 CREATE TABLE divisi (
   id_div INT PRIMARY KEY AUTO_INCREMENT,
   nama_div VARCHAR(100) NOT NULL,
